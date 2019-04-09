@@ -52,9 +52,11 @@ export const reducer = (state = initialState, action) => {
     case "UPDATE_PRODUCT_DATA":
       return {
         ...state,
-        productList: [...state.productList.slice(0, action.payload),
-        state.productList[action.payload] = action.data,
-        ...state.productList.slice(action.payload + 1)],
+        productList: [
+          ...state.productList.slice(0, action.payload),
+          state.productList[action.payload] = action.data,
+          ...state.productList.slice(action.payload + 1)
+        ],
       }
 
     default:

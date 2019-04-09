@@ -1,0 +1,30 @@
+.tile {
+  height: 100%;
+  width: 15%;
+  padding: 20px;
+  border: 2px solid black;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+
+.tileimg {
+  height: 50%;
+  width: 95%;
+}
+.tileedit {
+  background-color: orange;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.tiledelete {
+  background-color: red;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+

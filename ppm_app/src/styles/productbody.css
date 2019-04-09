@@ -1,0 +1,42 @@
+.bodycontainer {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.newprodinput {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.newprodbox {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.newprodlabel {
+  font-weight: bold;
+  margin-right: 5%;
+  font-size: 20px;
+}
+
+#newprodbtn {
+  background-color: green;
+  color: white;
+  padding: 10px 40px;
+}
+
+#newproddelbtn {
+  background-color: red;
+  color: white;
+  padding: 10px 40px;
+
+}
+
+#newprodupdbtn {
+  background-color:blue;
+  color: white;
+  padding: 10px 40px;
+}

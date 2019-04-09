@@ -1,0 +1,9 @@
+#navigation {
+  padding: 20px;
+}
+
+.navtab {
+  padding: 0px 40px 0px 10px;
+  border-right: 2px solid black;
+  font-size: 30px;
+}

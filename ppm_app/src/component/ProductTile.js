@@ -24,11 +24,11 @@ const ProductTile = (props) => {
   }
   return (
     <div className="tile">
-      <img className="tileimg" src={props.tileItem.url} alt="shoes" />
-      <h2>{props.tileItem.name}</h2>
+      <img className="img-fluid img-thumbnail tileimg" src={props.tileItem.url} alt="shoes" />
+      <h2 className="prodname">{props.tileItem.name}</h2>
       <h2>${props.tileItem.price}</h2>
-      <button className="tileedit"><Link to={`/products/edit/${props.tileItem.id}`}>EDIT</Link></button>
-      <button className="tiledelete" onClick={() => { deleteItem(props.tileItem) }}>Delete</button>
+      <button className="btn btn-warning btn-lg tileedit"><Link to={`/products/edit/${props.tileItem.id}`}>EDIT</Link></button>
+      <button className="btn btn-danger btn-lg tiledelete" onClick={() => { deleteItem(props.tileItem) }}>Delete</button>
     </div>
   );
 }

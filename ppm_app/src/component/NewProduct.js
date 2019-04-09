@@ -71,7 +71,7 @@ class NewProduct extends React.Component {
             <label className="newprodlabel" htmlFor="url">Image Url</label>
             <input className="newprodbox" name="url" onChange={this.handleChange} value={this.state.url} />
           </div>
-          <button id="newprodbtn">CREATE</button>
+          <button className="btn btn-success btn-lg">CREATE</button>
         </form>
       </div>
     );

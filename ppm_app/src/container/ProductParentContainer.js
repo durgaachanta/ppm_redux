@@ -6,7 +6,7 @@ import Home from '../component/Home';
 import ProductList from '../component/ProductList';
 import NewProduct from '../component/NewProduct';
 import EditProduct from '../component/EditProduct';
-import "../styles/productparentcontainer.css";
+//import "../styles/productparentcontainer.css";
 
 class ProductParentContainer extends React.Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class ProductParentContainer extends React.Component {
   };
   render() {
     return (
-      <div id="parentcontainer">
+      <div className="continer-fluid">
         <h1>PPM - Project Product Management</h1>
         <Navigation />
         {/* Routing should go here */}
